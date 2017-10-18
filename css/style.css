@@ -1,0 +1,329 @@
+@font-face {
+    font-family: Pacifico;
+    src: url('https://fonts.googleapis.com/css?family=Pacifico');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #4f007d;
+}
+p{
+    color: white;
+    font-size: 4vh;
+}
+.Freepik, .Freepik a{
+    color: white;
+    font-size: 3vh;
+}
+
+.hamburger{
+    background: url(menu.svg) no-repeat top left;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 999;
+}
+
+.LogoStyle {
+    height: 70px;
+    background: #4f007d;
+    color: #f14dfe;
+}
+
+.linkStyle{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+}
+
+.menuStyle{
+    background-color: #7a3b9f;
+    width: 100%;
+    margin-top: 60px;
+    position: absolute;
+    list-style-type: none;
+}
+
+li a {
+    color: white;
+    font-size: 30px;
+}
+.activeTitle {
+    color: orange;
+    text-shadow: 0px 0px 10px rgba(255, 48, 0, 1);
+    font-size: 5vh;
+    font-family: 'Architects Daughter ;
+}
+
+.myPhoto{
+    border-radius: 50%;
+    height: 30vw;
+}
+.React{
+    background: url('../images/react.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 10vw;
+    margin: 15px 15px 15px 15px;
+    width: 200px;
+    flex-grow: 1;
+}
+
+.Webpack{
+    background: url('../images/webpack.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 10vw;
+    margin: 15px 15px 15px 15px;
+    flex-grow: 1;
+    width: 200px;
+
+}
+.Css3{
+    background: url('../images/css3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 10vw;
+    margin: 15px 15px 15px 15px;
+    flex-grow: 1;
+    width: 200px;
+
+}
+.ReactRouter{
+    background: url('../images/react-router.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 10vw;
+    min-height: 4vw;
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    flex-grow: 1;
+    width: 200px;
+
+
+
+}
+.technoIcon{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
+}
+
+/*
+/////////////////////////////////////////////////
+*/
+
+.container {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*
+/////////////////ERROR///////////////////////////
+ */
+
+.errorClass {
+    padding: 40px;
+    font-size: 7vw !important;
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 80px red,0 0 30px FireBrick,0 0 6px DarkRed;
+    color: red;
+}
+.errorClass p { margin:0; }
+#error:hover { text-shadow: 0 0 200px #ffffff,0 0 80px #008000,0 0 6px #0000ff; }
+#code:hover { text-shadow: 0 0 100px red,0 0 40px FireBrick,0 0 8px DarkRed; }
+#error {
+    color: #fff;
+    text-shadow: 0 0 80px #ffffff,0 0 30px #008000,0 0 6px #0000ff;
+}
+#error span {
+    animation: upper 11s linear infinite;
+}
+#code span:nth-of-type(2) {
+    animation: lower 10s linear infinite;
+}
+#code span:nth-of-type(1) {
+    text-shadow: none;
+    opacity:.4;
+}
+@keyframes upper {
+    0%,19.999%,22%,62.999%,64%, 64.999%,70%,100% {
+        opacity:.99; text-shadow: 0 0 80px #ffffff,0 0 30px #008000,0 0 6px #0000ff;
+    }
+    20%,21.999%,63%,63.999%,65%,69.999% {
+        opacity:0.4; text-shadow: none;
+    }
+}
+@keyframes lower {
+    0%,12%,18.999%,23%,31.999%,37%,44.999%,46%,49.999%,51%,58.999%,61%,68.999%,71%,85.999%,96%,100% {
+        opacity:0.99; text-shadow: 0 0 80px red,0 0 30px FireBrick,0 0 6px DarkRed;
+    }
+    19%,22.99%,32%,36.999%,45%,45.999%,50%,50.99%,59%,60.999%,69%,70.999%,86%,95.999% {
+        opacity:0.4; text-shadow: none;
+    }
+}
+
+.village {
+    background-image: url("village.svg");
+    background-repeat: no-repeat;
+    height: 20vw;
+    background-position: center;
+
+
+}
+
+/*
+////////////////NEON LOGO////////////////////////
+ */
+
+
+.container2 {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dibe {
+    font-family: Pacifico;
+    color: #FB4264;
+    font-size: 30px;
+    text-shadow: 0 0 3vw #F40A35;
+}
+
+.flux {
+    font-family: Pacifico;
+    color: #ccb3fb;
+    font-size: 15px;
+    text-shadow: 0 0 3vw #6c1072;
+}
+
+.dibe {
+    animation: neon 3s ease infinite;
+    -moz-animation: neon 3s ease infinite;
+    -webkit-animation: neon 3s ease infinite;
+}
+
+@keyframes neon {
+    0%,
+    100% {
+        text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+        color: #FED128;
+    }
+    50% {
+        text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+        color: #806914;
+    }
+}
+
+.flux {
+    animation: flux 2s linear infinite;
+    -moz-animation: flux 2s linear infinite;
+    -webkit-animation: flux 2s linear infinite;
+    -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+    0%,
+    100% {
+        text-shadow: 0 0 1vw #93149a, 0 0 3vw #93149a, 0 0 10vw #93149a, 0 0 10vw #93149a, 0 0 .4vw #93149a, .5vw .5vw .1vw #93149a;
+        color: #fb00e1;
+    }
+    50% {
+        text-shadow: 0 0 .5vw #6c1072, 0 0 1.5vw #6c1072, 0 0 5vw #6c1072, 0 0 5vw #6c1072, 0 0 .2vw #6c1072, .5vw .5vw .1vw #6c1072;
+        color: #81217f;
+    }
+}
+
+
+/*
+////////////////////////////////////////
+ */
+
+
+/*TABLETS*/
+@media only screen and (min-width: 450px) {
+
+
+
+}
+
+/*DESKTOP*/
+@media only screen and (min-width: 1200px) {
+
+    .hamburger{
+        display: none;
+    }
+    .linkStyle{
+        color: white;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 15px;
+        position: relative;
+        z-index: 999;
+    }
+    .LogoStyle {
+        height: 100px;
+    }
+
+    .menuStyle{
+        background-color: #7a3b9f;
+        height: 60px;
+        width: 100%;
+        margin-top: 100px;
+        position: absolute;
+        list-style-type: none;
+        display: inline-flex;
+    }
+    .mainStyle{
+        margin-top: 60px;
+    }
+    lia a{
+        margin: 0 10px 0 10px;
+    }
+    .container{
+        margin-top: 80px;
+
+    }
+    .dibe {
+        font-size: 3vw;
+    }
+
+    .flux {
+        font-size: 1vw;
+    }
+    .container2{
+        width: 700px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 2;
+    }
+
+
+}
+
+
+
+
+
