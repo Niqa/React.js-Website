@@ -18,7 +18,10 @@ body{
 }
 p{
     color: white;
-    font-size: 4vh;
+    font-size: 24px;
+}
+.aboutBackground {
+    background: url("../images/pattern_nikola_op.png") no-repeat left/contain;
 }
 .Freepik, .Freepik a{
     color: white;
@@ -57,6 +60,7 @@ p{
     margin-top: 60px;
     position: absolute;
     list-style-type: none;
+    z-index: 1;
 }
 
 li a {
@@ -67,65 +71,149 @@ li a {
     color: orange;
     text-shadow: 0px 0px 10px rgba(255, 48, 0, 1);
     font-size: 5vh;
-    font-family: 'Architects Daughter ;
+    font-family: 'Architects Daughter';
+    margin-top: 1 em;
+    margin-left: 1em;
 }
 
 .myPhoto{
     border-radius: 50%;
-    height: 30vw;
+    height: 15em;
+    margin-top: 4em;
 }
 .React{
-    background: url('../images/react.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 10vw;
-    margin: 15px 15px 15px 15px;
+    background: url('../images/react.png') no-repeat center/contain;
+    height: 200px;
     width: 200px;
-    flex-grow: 1;
+
 }
 
 .Webpack{
-    background: url('../images/webpack.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 10vw;
-    margin: 15px 15px 15px 15px;
-    flex-grow: 1;
+    background: url('../images/webpack.svg') no-repeat center/contain;
+
+    height: 200px;
     width: 200px;
 
 }
 .Css3{
-    background: url('../images/css3.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 10vw;
-    margin: 15px 15px 15px 15px;
-    flex-grow: 1;
+    background: url('../images/css_logo.png') no-repeat center/contain;
+
+    height: 200px;
     width: 200px;
+
 
 }
 .ReactRouter{
-    background: url('../images/react-router.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 10vw;
-    min-height: 4vw;
-    margin: 15px 15px 15px 15px;
-    display: flex;
-    flex-grow: 1;
+    background: url('../images/react-router.svg') no-repeat center/contain;
+
+    height: 200px;
     width: 200px;
 
+}
+.RWD{
+    background: url('../images/rwd_logo.png') no-repeat center/contain;
+    height: 200px;
+    width: 200px;
 
+}
 
+.Html{
+    background: url('../images/html_logo.png') no-repeat center/contain;
+    height: 200px;
+    width: 200px;
+
+}
+.picElem{
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-grow: 2;
+    color: white;
+    font-size: 2em;
+    font-family: "Architects Daughter";
+    justify-content: center;
+
+}
+.picElemP{
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.picElemPtop{
+    margin: 0 auto;
+    padding-top: -200px;
 }
 .technoIcon{
     display: flex;
     flex-flow: row wrap;
-    margin-top: 30px;
+    margin-top: 100px;
+
+}
+
+.center{
+    position: relative;
+    margin: 0 auto;
+    display: table;
+}
+
+.ProblemClass{
+    background: url("../images/error_nik.png") no-repeat center/contain;
+    height: 300px;
+    margin-top: 2em;
+
+}
+.false{
+    font-family: "Architects Daughter";
+    animation: upper 11s linear infinite;
+    font-size: 2em;
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+
+
+}
+.falseDiv{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2em;
+
+
+}
+.facebook{
+    background: url('../images/facebook.png') no-repeat center/contain;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+
+}
+.github{
+    background: url('../images/github.png') no-repeat center/contain;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    animation: upper 11s linear infinite;
+
+
+}
+.linkedin{
+    background: url('../images/linkedin.png') no-repeat center/contain;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    animation: lower 10s linear infinite;
+    transform: rotate(15deg);
+}
+.wordpress{
+    background: url('../images/wordpress.png') no-repeat center/contain;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+
+}
+.linkPic{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+
 }
 
 /*
@@ -145,7 +233,7 @@ li a {
 
 .errorClass {
     padding: 40px;
-    font-size: 7vw !important;
+    font-size: 30px;
     font-family: 'Monoton', cursive;
     text-align: center;
     text-transform: uppercase;
@@ -156,18 +244,22 @@ li a {
 #error:hover { text-shadow: 0 0 200px #ffffff,0 0 80px #008000,0 0 6px #0000ff; }
 #code:hover { text-shadow: 0 0 100px red,0 0 40px FireBrick,0 0 8px DarkRed; }
 #error {
+    font-size: 2em;
     color: #fff;
     text-shadow: 0 0 80px #ffffff,0 0 30px #008000,0 0 6px #0000ff;
 }
 #error span {
     animation: upper 11s linear infinite;
 }
-#code span:nth-of-type(2) {
+#code span:nth-of-type(3) {
     animation: lower 10s linear infinite;
 }
 #code span:nth-of-type(1) {
     text-shadow: none;
     opacity:.4;
+}
+#code span{
+    font-size: 4em;
 }
 @keyframes upper {
     0%,19.999%,22%,62.999%,64%, 64.999%,70%,100% {
@@ -189,7 +281,7 @@ li a {
 .village {
     background-image: url("village.svg");
     background-repeat: no-repeat;
-    height: 20vw;
+    height: 15em;
     background-position: center;
 
 
@@ -281,7 +373,6 @@ li a {
         margin-top: 10px;
         margin-left: 15px;
         position: relative;
-        z-index: 999;
     }
     .LogoStyle {
         height: 100px;
@@ -295,6 +386,7 @@ li a {
         position: absolute;
         list-style-type: none;
         display: inline-flex;
+        z-index: 1;
     }
     .mainStyle{
         margin-top: 60px;
@@ -318,6 +410,30 @@ li a {
         margin: 0 auto;
         position: relative;
         z-index: 2;
+    }
+    .myPhoto{
+        height: 30em;
+    }
+    .village{
+        margin-top: 40px;
+    }
+
+    .facebook{
+        height: 128px;
+        width: 128px;
+
+    }
+    .github{
+        height: 128px;
+        width: 128px;
+    }
+    .linkedin{
+        height: 128px;
+        width: 128px;
+    }
+    .wordpress{
+        height: 128px;
+        width: 128px;
     }
 
 

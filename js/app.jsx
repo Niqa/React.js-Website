@@ -15,10 +15,26 @@ document.addEventListener('DOMContentLoaded', function(){
     class Home extends React.Component{
         render(){
             return (
-                <div className={'mainStyle', 'container'}>
+                <div className={'mainStyle container'}>
                     <h1 className={'activeTitle'}>HOME</h1>
-                    <p>jkkjdshfkjfc</p>
+                    <p>Where I'm?</p><p className={'errorClass'}>FOLLOW ME!</p>
+                    <div className={'technoIcon'}>
+                        <div className={'facebook picElem'}>
+                           <a className={'linkPic'} href={'https://www.facebook.com/nikola.krol.3'}></a>
+                        </div>
+                        <div className={'github picElem'}>
+                            <a className={'linkPic'} href={'https://github.com/Niqa'}></a>
+
+                        </div>
+                        <div className={'linkedin picElem'} >
+                            <a className={'linkPic'} href={'https://www.linkedin.com/in/nikola-kr%C3%B3l-a00652151/'}></a>
+                        </div>
+                        <div className={'wordpress picElem'}>
+                            <a className={'linkPic'} href={'https://lovepeak.wordpress.com/'}></a>
+                        </div>
+                    </div>
                 </div>
+
             )
 
         }
@@ -29,7 +45,12 @@ document.addEventListener('DOMContentLoaded', function(){
             return (
                 <div className={'mainStyle', 'container'}>
                     <h1 className={'activeTitle'}>PROBLEMS</h1>
-                    <p>jkkjdshfkjfc</p>
+                    <p>I don't have any problems :P</p>
+                    <div className={'ProblemClass'}></div>
+                    <div className={'falseDiv'}>
+                        <p>It's funny because it's a</p> <p className={'false'}>FALSE</p>
+                    </div>
+
                 </div>
             )
 
@@ -39,18 +60,32 @@ document.addEventListener('DOMContentLoaded', function(){
     class Technologies extends React.Component{
         render(){
             return (
-                <div className={'mainStyle', 'container'}>
+                <div className={'mainStyle container'}>
                     <h1 className={'activeTitle'}>TECHNOLOGIES</h1>
                     <p>
-                        On this page you can find fechnologies what I use to build this website!
-                        Enoy!
+                        What is inside this website?
                     </p>
-                    <div className={'Freepik'}>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
                     <div className={'technoIcon'}>
-                        <div className={'React'}></div>
-                        <div className={'ReactRouter'}></div>
-                        <div className={'Webpack'}></div>
-                        <div className={'Css3'}></div>
+                        <div className={'Css3 picElem'}>
+                            <p className={'picElemP'}>CSS</p>
+                        </div>
+                        <div className={'RWD picElem'}>
+                            <p className={'picElemP'}>RWD</p>
+                        </div>
+                        <div className={'Html picElem'}>
+                            <p className={'picElemP'}>HTML</p>
+                        </div>
+                    </div>
+                    <div className={'technoIcon'}>
+                        <div className={'React picElem'}>
+                            <p className={'picElemP'}>REACT.js</p>
+                        </div>
+                        <div className={'ReactRouter picElem'}>
+                            <p className={'picElemP'}>REACT ROUTER</p>
+                        </div>
+                        <div className={'Webpack picElem'}>
+                            <p className={'picElemP'}>WEBPACK</p>
+                        </div>
                     </div>
 
                 </div>
@@ -63,13 +98,14 @@ document.addEventListener('DOMContentLoaded', function(){
     class AboutMe extends React.Component{
         render(){
             return (
-                <div className={'mainStyle', 'container'}>
+                <div className={'mainStyle container aboutBackground'}>
                     <h1 className={'activeTitle'}>ABOUT ME</h1>
-                    <p>Hello! Welcome in my react website.
-                    I was born in seaside in Poland. When I was young my family moved to Cracow- 750km away from home town.
-                    Now I live in this beautyful, royal city place and study IT.
+                    <p>
+                        Hi! I'm Nikola. I was born at seaside. I have moved to Cracow when I was a very little girl and I still live in this wonderful city of kings. Currently I'm 20 years old and studying Informatics, which is one of my main hobbies. I love hiking and I'm definitely type of a wanderer. Wilderness is my home. When I have nothing else to do, I take my beloved Sony camera and take pictures of anything that surrounds me including animals, my best life companions.
                     </p>
-                    <img src="images/nikola.JPG" alt="author photo" className={'myPhoto'}/>
+                    <div className={'center'}>
+                        <img src="images/nikola.JPG" alt="author photo" className={'myPhoto'}/>
+                    </div>
                 </div>
 
             )
@@ -84,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     <div className={'errorClass'}>
                         <p id="error">E<span>r</span>ror</p>
                         <p id="error" className={'infoError'}>Page  not  found</p>
-                        <p id="code">4<span>0</span><span>4</span></p>
+                        <p id="code"><span>4</span><span>0</span><span>4</span></p>
                         <div className={'village'}></div>
                     </div>
                 </div>
@@ -228,8 +264,6 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 
     /////////////////////////////
-
-
 
     /////////////////////////////
 

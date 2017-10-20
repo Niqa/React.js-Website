@@ -13613,7 +13613,7 @@ document.addEventListener('DOMContentLoaded', function () {
             value: function render() {
                 return _react2.default.createElement(
                     'div',
-                    { className: ('mainStyle', 'container') },
+                    { className: 'mainStyle container' },
                     _react2.default.createElement(
                         'h1',
                         { className: 'activeTitle' },
@@ -13622,7 +13622,36 @@ document.addEventListener('DOMContentLoaded', function () {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'jkkjdshfkjfc'
+                        'Where I\'m?'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        { className: 'errorClass' },
+                        'FOLLOW ME!'
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'technoIcon' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'facebook picElem' },
+                            _react2.default.createElement('a', { className: 'linkPic', href: 'https://www.facebook.com/nikola.krol.3' })
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'github picElem' },
+                            _react2.default.createElement('a', { className: 'linkPic', href: 'https://github.com/Niqa' })
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'linkedin picElem' },
+                            _react2.default.createElement('a', { className: 'linkPic', href: 'https://www.linkedin.com/in/nikola-kr%C3%B3l-a00652151/' })
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'wordpress picElem' },
+                            _react2.default.createElement('a', { className: 'linkPic', href: 'https://lovepeak.wordpress.com/' })
+                        )
                     )
                 );
             }
@@ -13654,7 +13683,23 @@ document.addEventListener('DOMContentLoaded', function () {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'jkkjdshfkjfc'
+                        'I don\'t have any problems :P'
+                    ),
+                    _react2.default.createElement('div', { className: 'ProblemClass' }),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'falseDiv' },
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'It\'s funny because it\'s a'
+                        ),
+                        ' ',
+                        _react2.default.createElement(
+                            'p',
+                            { className: 'false' },
+                            'FALSE'
+                        )
                     )
                 );
             }
@@ -13677,7 +13722,7 @@ document.addEventListener('DOMContentLoaded', function () {
             value: function render() {
                 return _react2.default.createElement(
                     'div',
-                    { className: ('mainStyle', 'container') },
+                    { className: 'mainStyle container' },
                     _react2.default.createElement(
                         'h1',
                         { className: 'activeTitle' },
@@ -13686,37 +13731,69 @@ document.addEventListener('DOMContentLoaded', function () {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'In this page you can find fechnologies what I use to build this website! Enoy!'
+                        'What is inside this website?'
                     ),
                     _react2.default.createElement(
                         'div',
-                        { className: 'Freepik' },
-                        'Icons made by ',
+                        { className: 'technoIcon' },
                         _react2.default.createElement(
-                            'a',
-                            { href: 'http://www.freepik.com', title: 'Freepik' },
-                            'Freepik'
+                            'div',
+                            { className: 'Css3 picElem' },
+                            _react2.default.createElement(
+                                'p',
+                                { className: 'picElemP' },
+                                'CSS'
+                            )
                         ),
-                        ' from ',
                         _react2.default.createElement(
-                            'a',
-                            { href: 'https://www.flaticon.com/', title: 'Flaticon' },
-                            'www.flaticon.com'
+                            'div',
+                            { className: 'RWD picElem' },
+                            _react2.default.createElement(
+                                'p',
+                                { className: 'picElemP' },
+                                'RWD'
+                            )
                         ),
-                        ' is licensed by ',
                         _react2.default.createElement(
-                            'a',
-                            { href: 'http://creativecommons.org/licenses/by/3.0/', title: 'Creative Commons BY 3.0', target: '_blank' },
-                            'CC 3.0 BY'
+                            'div',
+                            { className: 'Html picElem' },
+                            _react2.default.createElement(
+                                'p',
+                                { className: 'picElemP' },
+                                'HTML'
+                            )
                         )
                     ),
                     _react2.default.createElement(
                         'div',
                         { className: 'technoIcon' },
-                        _react2.default.createElement('div', { className: 'React' }),
-                        _react2.default.createElement('div', { className: 'ReactRouter' }),
-                        _react2.default.createElement('div', { className: 'Webpack' }),
-                        _react2.default.createElement('div', { className: 'Css3' })
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'React picElem' },
+                            _react2.default.createElement(
+                                'p',
+                                { className: 'picElemP' },
+                                'REACT.js'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'ReactRouter picElem' },
+                            _react2.default.createElement(
+                                'p',
+                                { className: 'picElemP' },
+                                'REACT ROUTER'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'Webpack picElem' },
+                            _react2.default.createElement(
+                                'p',
+                                { className: 'picElemP' },
+                                'WEBPACK'
+                            )
+                        )
                     )
                 );
             }
@@ -13739,7 +13816,7 @@ document.addEventListener('DOMContentLoaded', function () {
             value: function render() {
                 return _react2.default.createElement(
                     'div',
-                    { className: ('mainStyle', 'container') },
+                    { className: 'mainStyle container aboutBackground' },
                     _react2.default.createElement(
                         'h1',
                         { className: 'activeTitle' },
@@ -13748,9 +13825,13 @@ document.addEventListener('DOMContentLoaded', function () {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'Hello! Welcome in my react website. I was born in seaside in Poland. When I was young my family moved to Cracow- 750km away from home town. Now I live in this beautyful, royal city place and study IT.'
+                        'Hi! I\'m Nikola. I was born at seaside. I have moved to Cracow when I was a very little girl and I still live in this wonderful city of kings. Currently I\'m 20 years old and studying Informatics, which is one of my main hobbies. I love hiking and I\'m definitely type of a wanderer. Wilderness is my home. When I have nothing else to do, I take my beloved Sony camera and take pictures of anything that surrounds me including animals, my best life companions.'
                     ),
-                    _react2.default.createElement('img', { src: 'images/nikola.JPG', alt: 'author photo', className: 'myPhoto' })
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'center' },
+                        _react2.default.createElement('img', { src: 'images/nikola.JPG', alt: 'author photo', className: 'myPhoto' })
+                    )
                 );
             }
         }]);
@@ -13795,7 +13876,11 @@ document.addEventListener('DOMContentLoaded', function () {
                         _react2.default.createElement(
                             'p',
                             { id: 'code' },
-                            '4',
+                            _react2.default.createElement(
+                                'span',
+                                null,
+                                '4'
+                            ),
                             _react2.default.createElement(
                                 'span',
                                 null,
@@ -14094,7 +14179,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }(_react2.default.Component);
 
     /////////////////////////////
-
 
     /////////////////////////////
 
