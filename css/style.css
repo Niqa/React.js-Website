@@ -177,6 +177,9 @@ li a {
 
 
 }
+.followMe{
+    font-size: 4em !important;
+}
 .facebook{
     background: url('../images/facebook.png') no-repeat center/contain;
     height: 100px;

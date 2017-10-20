@@ -13626,7 +13626,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     ),
                     _react2.default.createElement(
                         'p',
-                        { className: 'errorClass' },
+                        { className: 'errorClass followMe' },
                         'FOLLOW ME!'
                     ),
                     _react2.default.createElement(

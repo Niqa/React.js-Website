@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function(){
             return (
                 <div className={'mainStyle container'}>
                     <h1 className={'activeTitle'}>HOME</h1>
-                    <p>Where I'm?</p><p className={'errorClass'}>FOLLOW ME!</p>
+                    <p>Where I'm?</p><p className={'errorClass followMe'}>FOLLOW ME!</p>
                     <div className={'technoIcon'}>
                         <div className={'facebook picElem'}>
                            <a className={'linkPic'} href={'https://www.facebook.com/nikola.krol.3'}></a>
